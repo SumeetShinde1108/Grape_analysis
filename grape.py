@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-image_path = "C:\\Users\\mypc\\Desktop\\1733819666475.jpeg"
+image_path = "C:\\Users\\mypc\\Desktop\\Git_grape\\Grape_analysis\\1733819666475.jpeg"
 image = cv2.imread(image_path)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
