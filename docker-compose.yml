@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  grape_analysis:
+    build: .  
+    container_name: grape_analysis_container
+    volumes:
+      - ./output:/app/output  
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python grape.py  
